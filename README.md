@@ -1,5 +1,5 @@
 ## Implemented info
-1. created a class for chess interface with next move methods and validation for bishops located src/interface/chess.ts
+1. created a class for chess interface with next move methods and validation for bishops located in src/interface/chess.ts
 2. provided two apis 
 
 Get   /chess/start     - to start the game 
