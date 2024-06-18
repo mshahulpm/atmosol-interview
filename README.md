@@ -2,8 +2,8 @@
 1. created a class for chess interface with next move methods and validation for bishops located in src/interface/chess.ts
 2. provided two apis 
 
-1. Get   /chess/start     - to start the game 
-2. Post  /chess/next-move - for moving next piece 
+- Get   /chess/start     - to start the game 
+- Post  /chess/next-move - for moving next piece 
 
 3. refer postman collection to test the API located postman-docs
 
