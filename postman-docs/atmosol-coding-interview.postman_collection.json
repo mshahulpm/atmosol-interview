@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "9128e302-a595-484a-b21c-41d4075dcbe7",
+		"name": "atmosol-coding-interview",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35344518"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/chess/start",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/chess/start",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"chess",
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/chess/next-move",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"start_position\": [2,7],\r\n    \"end_position\": [5,4],\r\n    \"piece\": \"w_bishop\",\r\n    \"currentChessBoard\":[\r\n        [\r\n            \"b_rook\",\r\n            \"b_knight\",\r\n            \"b_bishop\",\r\n            \"b_king\",\r\n            \"b_queen\",\r\n            \"b_bishop\",\r\n            \"b_knight\",\r\n            \"b_rook\"\r\n        ],\r\n        [\r\n            \"b_pawn\",\r\n            \"b_pawn\",\r\n            \"b_pawn\",\r\n            \"b_pawn\",\r\n            \"b_pawn\",\r\n            \"b_pawn\",\r\n            \"b_pawn\",\r\n            \"b_pawn\"\r\n        ],\r\n        [\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0\r\n        ],\r\n        [\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0\r\n        ],\r\n        [\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0\r\n        ],\r\n        [\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0,\r\n            0\r\n        ],\r\n        [\r\n            \"w_pawn\",\r\n            \"w_pawn\",\r\n            \"w_pawn\",\r\n            \"w_pawn\",\r\n            \"w_pawn\",\r\n            \"w_pawn\",\r\n            \"w_pawn\",\r\n            \"w_pawn\"\r\n        ],\r\n        [\r\n            \"w_rook\",\r\n            \"w_knight\",\r\n            \"w_bishop\",\r\n            \"w_king\",\r\n            \"w_queen\",\r\n            \"w_bishop\",\r\n            \"w_knight\",\r\n            \"w_rook\"\r\n        ]\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/chess/next-move",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"chess",
+						"next-move"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
